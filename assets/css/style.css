@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    border: none;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+section {
+    justify-content: center;
+    min-height: 100vh;
+    justify-items: center;
+    align-items: center;
+    align-content: center;
+}
+
+.container {
+    max-width: 1140px;
+    padding-left: 12px;
+    padding-right: 12px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin-right: -12px;
+    margin-left: -12px;
+}
+
+.col-7 {
+    width: 58.33%;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+.col-3 {
+    width: 25%;
+    padding-left: 12px;
+    padding-right: 12px;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    align-content: center;
+}
+
+.table {
+    border-collapse: collapse;
+}
+
+.head-1 {
+    font-family: DM Sans, sans-serif;
+    font-size: 42px;
+    line-height: 52px;
+    letter-spacing: -0.4000000059604645px;
+    color: #1E0E62;
+}
+
+.jcsb {
+    justify-content: space-between;
+}
+
+.head-2 {
+    font-family: DM Sans, sans-serif;
+    font-size: 22px;
+    line-height: 32px;
+    text-align: left;
+    color: #1E0E62;
+    text-align: center;
+}
+
+.head-3 {
+    font-family: DM Sans;
+    font-size: 18px;
+    line-height: 28px;
+    text-align: left;
+    color: #9D9CAC;
+    text-align: center;
+}
+
+.data {
+    width: 570px;
+    height: 44.6px;
+    text-align: center;
+    border-bottom: 2px solid #ebeaed;
+    justify-content: center;
+    font-family: DM Sans, sans-serif;
+    font-size: 14px;
+    line-height: 26px;
+    letter-spacing: 2px;
+    color: #1E0E62;
+    padding: 20px;
+    align-items: center;
+    text-align: center;
+}
+
+.data-2 {
+    width: 570px;
+    height: 44.6px;
+    text-align: center;
+    border-bottom: 2px solid #ebeaed;
+    justify-content: center;
+    font-family: DM Sans, sans-serif;
+    font-size: 14px;
+    line-height: 26px;
+    letter-spacing: 2px;
+    color: #A1A1B0;
+}
+
+.crad {
+    text-align: center;
+    align-items: center;
+    background: #EBEAED;
+    width: 270px;
+    height: 250px;
+    border-radius: 10px;
+}
+
+.button {
+    width: 130px;
+    height: 40px;
+    border-radius: 100px 100px 100px 100px;
+    color: white;
+    background: #25DAC5;
+    margin-top: 15px;
+}

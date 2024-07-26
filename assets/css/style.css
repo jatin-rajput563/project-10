@@ -38,6 +38,7 @@ section {
     padding-left: 12px;
     padding-right: 12px;
 }
+
 .col-3 {
     width: 25%;
     padding-left: 12px;
@@ -53,12 +54,18 @@ section {
     border-collapse: collapse;
 }
 
+.table-1 {
+    margin-left: 100px;
+}
+
 .head-1 {
-    font-family: DM Sans, sans-serif;
+    font-family: "DM Sans", sans-serif;
     font-size: 42px;
     line-height: 52px;
     letter-spacing: -0.4000000059604645px;
     color: #1E0E62;
+    margin-left: 100px;
+    margin-bottom: 25px;
 }
 
 .jcsb {
@@ -66,59 +73,74 @@ section {
 }
 
 .head-2 {
-    font-family: DM Sans, sans-serif;
+    font-family: "DM Sans", sans-serif;
     font-size: 22px;
     line-height: 32px;
+    margin-top: 34px;
     text-align: left;
     color: #1E0E62;
     text-align: center;
+    margin-right: 80px;
+
 }
 
 .head-3 {
-    font-family: DM Sans;
+    font-family: "DM Sans", sans-serif;
     font-size: 18px;
     line-height: 28px;
+    padding-top: 11.1px;
     text-align: left;
     color: #9D9CAC;
-    text-align: center;
-}
-
-.data {
-    width: 570px;
-    height: 44.6px;
-    text-align: center;
-    border-bottom: 2px solid #ebeaed;
-    justify-content: center;
-    font-family: DM Sans, sans-serif;
-    font-size: 14px;
-    line-height: 26px;
-    letter-spacing: 2px;
-    color: #1E0E62;
-    padding: 20px;
-    align-items: center;
-    text-align: center;
+    margin-left: 35px;
 }
 
 .data-2 {
     width: 570px;
     height: 44.6px;
-    text-align: center;
     border-bottom: 2px solid #ebeaed;
-    justify-content: center;
-    font-family: DM Sans, sans-serif;
+    font-family: "DM Sans", sans-serif;
+    align-items: center;
+    font-size: 14px;
+    line-height: 26px;
+    letter-spacing: 2px;
+    color: #1E0E62;
+    padding: 20px;
+}
+
+.data-1 {
+    width: 570px;
+    height: 44.6px;
+    text-align: left;
+    border-bottom: 2px solid #ebeaed;
+    font-family: "DM Sans", sans-serif;
     font-size: 14px;
     line-height: 26px;
     letter-spacing: 2px;
     color: #A1A1B0;
 }
 
-.crad {
+.data-3 {
+    width: 570px;
+    height: 44.6px;
+    border-bottom: 2px solid #ebeaed;
+    font-family: "DM Sans", sans-serif;
+    text-align: left;
+    font-size: 14px;
+    line-height: 26px;
+    letter-spacing: 2px;
+    color: #1E0E62;
+    padding: 20px;
+}
+
+.card {
     text-align: center;
-    align-items: center;
     background: #EBEAED;
-    width: 270px;
-    height: 250px;
     border-radius: 10px;
+    width: 270px;
+    height: 326px;
+    top: 213px;
+    left: 916px;
+
 }
 
 .button {
@@ -127,5 +149,6 @@ section {
     border-radius: 100px 100px 100px 100px;
     color: white;
     background: #25DAC5;
-    margin-top: 15px;
+    margin-top: 33px;
+    margin-right: 60px;
 }
